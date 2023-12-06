@@ -14,7 +14,7 @@ a {
 .ourbrands {
   background-color: #f3f3f3;
 }
-footer {
+.navy {
   background-color: #07072c;
 }
 footer .copy-right {
@@ -24,4 +24,9 @@ footer .copy-right {
 }
 footer ul li a{
   color: #fff;
+}
+
+.point{
+  width: 34vw;
+  border-radius: 5px;
 }
