@@ -17,3 +17,5 @@ function myFunction(x) {
 var mobileView = window.matchMedia("(max-width: 580px)");
 myFunction(mobileView); // Call listener function at run time
 mobileView.addListener(myFunction); // Attach listener function on state changes
+
+

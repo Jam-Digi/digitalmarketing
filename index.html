@@ -13,6 +13,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header Start -->
@@ -154,50 +158,208 @@
     <!-- working point end-->
     <!-- our brand start -->
     <section class="ourbrands py-5 py-md-0">
-      <div class="container p-md-5">
-        <div class="row g-5 pb-5">
-          <div class="col-12 text-center">
-            <p class="fs-4 text-center">Meet the brands that we rely on</p>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="border: none; border-radius: 0px">
-              <img src="./img/icecream.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Raja</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+      <div class="row py-3">
+        <div class="col-12 text-center">
+          <p class="fs-4 text-center">Meet the brands that we rely on</p>
+        </div>
+      </div>
+      <div
+        id="carouselExampleDark"
+        class="container carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row g-5 pb-5">
+         
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/icecream.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Raja</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/periyasami.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">S.Periyasami</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img src="./img/Giri.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Kumaran</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card" style="border: none; border-radius: 0px">
-              <img src="./img/periyasami.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">S.Periyasami</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row g-5 pb-5">
+             
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/ethnics.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/sschicken.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">SS</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img src="./img/Topi.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Kumaran</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card" style="border: none; border-radius: 0px">
-              <img src="./img/Giri.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Kumaran</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+          <div class="carousel-item">
+            <div class="row g-5 pb-5">
+             
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/icecream.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img
+                    src="./img/periyasami.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">S.Periyasami</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="border: none; border-radius: 0px">
+                  <img src="./img/Giri.png" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Kumaran</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
+
     <!-- our brand end -->
     <!-- contact start -->
     <section
@@ -293,8 +455,10 @@
             </p>
           </div>
           <div class="col-md-6">
-            <ul class="d-flex justify-content-between list-unstyled w-0 w-sm-75 w-md-50 ms-auto">
-              <li  class="footer-navlink"><a href="#">Home</a></li>
+            <ul
+              class="d-flex justify-content-between list-unstyled w-0 w-sm-75 w-md-50 ms-auto"
+            >
+              <li class="footer-navlink"><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Service</a></li>
               <li><a href="#">Contact</a></li>
@@ -325,5 +489,6 @@
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
