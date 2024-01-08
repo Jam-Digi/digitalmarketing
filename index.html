@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Digital Marketing Website in Kumbakonam"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Batrinath" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jam Digi Solution | Home</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -12,371 +18,178 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Header Start -->
     <header>
-      <div id="navHeader" class="container-fluid border-bottom border-dark">
-        <div class="container">
-          <div class="d-flex justify-content-between py-3">
-            <div class="contact-header">
-              <p class="d-inline mx-2">
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >+91 987878798</a
-                >
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >+91 987878798</a
-                >
-              </p>
-              <p class="d-inline mx-2"><a href="mailto:">@gmail.com</a></p>
-            </div>
-            <div class="contact-header row">
-              <i class="col-4 fa-brands fa-square-facebook"></i>
-              <i class="col-4 fa-brands fa-square-instagram"></i
-              ><i class="col-4 fa-brands fa-x-twitter"></i>
-            </div>
-          </div>
+      <div class="container-fluid row justify-content-end pt-4">
+        <ul class="social-link col-sm-2 align-self-end">
+          <li><i class="fa-brands fa-square-facebook"></i></li>
+          <li><i class="fa-brands fa-square-instagram"></i></li>
+          <li><i class="fa-brands fa-x-twitter"></i></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Navbar start -->
+    <nav class="navbar bg-light bg-body-tertiary">
+      <div class="my-container d-flex justify-content-between">
+        <a class="nav-logo" href="#">
+          <img src="./img/logo.png" alt="Jam Digi Solution" />
+        </a>
+        <div
+          id="navbarLinks"
+          class="d-flex justify-content-between align-items-center w-40"
+        >
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Contact</a>
         </div>
       </div>
-      <nav class="bg-light">
-        <div class="container">
-          <div class="d-flex justify-content-between">
-            <a class="logo" href="#">
-              <img src="./img/logo.png" alt="jam digi solution" width="100px" />
-            </a>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Main start -->
 
-            <ul id="navlink" class="d-flex list-unstyled m-0 text-nowrap">
-              <li class="mx-3 pt-3">
-                <a aria-current="page" href="#">Home</a>
-              </li>
-              <li class="mx-3 pt-3">
-                <a href="#">About us</a>
-              </li>
-              <li class="mx-3 pt-3">
-                <a href="#">Service</a>
-              </li>
-              <li class="mx-3 pt-3">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- <div id="navbarSupportedContent"></div>
-        </div> -->
-      </nav>
-    </header>
-    <!-- Header Start -->
-
-    <!-- Main Start -->
     <main>
-      <div class="container p-md-5">
-        <div class="row reorder gx-5">
-          <div id="hero-content" class="col-md-6 p-4 p-md-5">
-            <p class="hero-text">
-              Are You Going To <br />Think That You Cannot <br />Afford Us
-            </p>
-            <p class="hero-subtext">
-              Jayam helps small businesses grow and lot of our clients are
-              making less than 20k in income when they start with us.
+      <div class="container py-md-5">
+        <div class="row justify-content-around py-md-5">
+          <div
+            id="hero-content"
+            class="col-md-5 align-self-center order-2 order-md-1 p-4 p-md-4"
+          >
+            <h3 class="hero-text">
+              Empower Your Brand's Digital Odyssey with
+              <span class="second">Jam Digi Solutions!</span>
+            </h3>
+            <p class="hero-subtext mt-4">
+              Jam helps small businesses grow and lot of our clients are making
+              less than 20k in income when they start with us.
             </p>
           </div>
-          <div id="hero-img" class="col-md-6">
-            <img class="banner" src="./img/mainbanner.jpg" alt="mainbanner" />
+          <div
+            id="hero-img"
+            class="col-md-6 align-self-center order-1 order-md-2"
+          >
+            <img src="./img/mainbanner.jpg" alt="mainbanner" />
           </div>
         </div>
       </div>
     </main>
-    <!-- Main End -->
-    <!-- working point header start -->
-    <section class="my-4 navy text-light">
-      <div class="container text-center py-3 p-md-5">
-        <p class="point-text w-md-50 mx-auto">
+    <!-- Main end -->
+
+    <!-- working point start -->
+    <section class="point-header">
+      <div class="container py-3 py-md-5 text-center">
+        <p>
           If you read through the 3 points below, you will see that you can,
           that we are what you are looking for
-          <small class="point-subtext d-block mt-4"
-            >Many of our clients bi weekly meetings for the 6 months</small
-          >
         </p>
-      </div>
-    </section>
-    <!-- working point header end-->
-    <!-- working point start-->
-    <section>
-      <div class="container">
-        <div class="row p-md-5 reorder">
-          <div id="order2" class="col-md-6 py-3 p-md-0">
-            <h5 class="point-desc">Point 1</h5>
-            <h3>
-              Our Company helps small businesses get from Point A to Point B
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
-              placeat sint enim est rerum incidunt autem odio at quaerat eveniet
-              veritatis harum natus, tempora, quo modi voluptatem doloremque
-              eligendi! Quaerat!
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="point" src="./img/point1.jpg" alt="ponit1" />
-          </div>
-        </div>
-        <div class="row p-md-5">
-          <div class="col-md-6">
-            <img class="point" src="./img/poin2.webp" alt="point2" />
-          </div>
-          <div class="col-md-6 py-3 p-md-0">
-            <h5 class="point-desc">Point 2</h5>
-            <h3>We Help You Grow in Two Ways</h3>
-            <p>
-              Bi-weekly strategy meeting to learn how your bussiness is doing to
-              find out what is needed next,
-            </p>
-          </div>
-        </div>
-        <div class="row p-md-5 reorder">
-          <div id="order3" class="col-md-6 py-3 p-md-0">
-            <h5 class="point-desc">Point 3</h5>
-            <h3>We recommend services that you can afford</h3>
-            <p>
-              the goal is to pay out the growth that is create, not before
-              growth is created lets us show you. Hic placeat sint enim est
-              rerum incidunt autem odio at quaerat eveniet veritatis harum
-              natus, tempora, quo modi voluptatem doloremque eligendi! Quaerat!
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="point" src="./img/point3.webp" alt="point3" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- working point end-->
-    <!-- our brand start -->
-    <section class="ourbrands py-5 py-md-0">
-      <div class="row py-3">
-        <div class="col-12 text-center">
-          <p class="fs-4 text-center">Meet the brands that we rely on</p>
-        </div>
-      </div>
-      <div
-        id="carouselExampleDark"
-        class="container carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <div class="row g-5 pb-5">
-         
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/icecream.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Raja</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/periyasami.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">S.Periyasami</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img src="./img/Giri.png" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Kumaran</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <div class="row g-5 pb-5">
-             
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/ethnics.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/sschicken.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">SS</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img src="./img/Topi.png" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Kumaran</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row g-5 pb-5">
-             
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/icecream.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img
-                    src="./img/periyasami.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">S.Periyasami</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card" style="border: none; border-radius: 0px">
-                  <img src="./img/Giri.png" class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Kumaran</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <small>Many of our clients bi weekly meetings for the 6 months</small>
       </div>
     </section>
 
-    <!-- our brand end -->
+    <section class="points-sub">
+      <div class="container">
+        <div class="row justify-content-between p-md-5">
+          <div class="col-md-5 order-2 order-md-1 py-3 p-md-0">
+            <h5>Point 1</h5>
+            <h3>Bi-Weekly Strategy Meetings for 6 Months</h3>
+            <p>
+              At <span class="second">Jam Digi Solution</span>, our commitment
+              extends beyond services; it's about the journey. Through bi-weekly
+              meetings over a span of six months, we immerse ourselves in
+              understanding your business's trajectory, goals, and challenges.
+              These meetings serve as touchpoints where we collaboratively chart
+              progress from Point A to Point B, ensuring that each stride aligns
+              with your vision.
+            </p>
+          </div>
+          <div class="col-md-5 order-1 order-md-2 my-3 my-md-0">
+            <img class="rounded-1" src="./img/point1.jpg" alt="ponit1" />
+          </div>
+        </div>
+
+        <div class="row justify-content-between p-md-5">
+          <div class="col-md-5">
+            <img class="rounded-1" src="./img/point2.png" alt="point3" />
+          </div>
+          <div class="col-md-5 py-3 p-md-0">
+            <h5>Point 2</h5>
+            <h3>Helping Small Businesses Grow in Two Ways</h3>
+            <p>
+              Our approach revolves around empowering your growth. Firstly,
+              through comprehensive bi-weekly strategy sessions, we delve deep
+              into your business dynamics, analyzing its pulse to determine
+              precisely what's required for the next leap forward. Secondly, we
+              infuse our expertise into tailored strategies, equipping you with
+              the tools to thrive in an ever-evolving market landscape.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between p-md-5">
+          <div class="col-md-5 order-2 order-md-1 py-3 p-md-0">
+            <h5>Point 3</h5>
+            <h3>Affordable Recommendations for Sustainable Growth</h3>
+            <p>
+              Understanding that every investment matters, we meticulously
+              recommend services that synchronize with your budget. Our goal
+              isn't just to provide services; it's to foster growth. We believe
+              in a model where payment aligns with the growth we create. It's
+              not about cost; it's about the value generated. Let us showcase
+              our commitment by showing you tangible growth before any financial
+              commitment.
+            </p>
+          </div>
+          <div class="col-md-5 order-1 order-md-2">
+            <img class="rounded-1" src="./img/point3.webp" alt="point3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- working point  end-->
+    <!-- Slider main container -->
+    <section class="brands">
+      <h4 class="text-center pt-4">Meet Our Brands</h4>
+      <div class="swiper py-5">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./img/brands/Giri.png" alt="ethnics" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/brands/dubai.png" alt="dubai" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./img/brands/icecream.png" alt="icecream" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/brands/periyasami.png" alt="periyasami" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/brands/Topi.png" alt="topi" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
     <!-- contact start -->
-    <section
-      style="
-        background: rgb(84, 84, 209);
-        background: linear-gradient(
-          129deg,
-          rgba(84, 84, 209, 1) 0%,
-          rgba(0, 212, 255, 1) 100%
-        );
-      "
-    >
+    <section class="contactform">
       <div class="container px-md-5 py-5 pt-md-5">
-        <div class="row pt-md-5">
-          <div class="col-md-5 text-light">
+        <div class="row pt-md-7 gx-5">
+          <div class="col-md-6 text-light">
             <h2>It All Start with a FREE One Hour Consultation</h2>
-            <p class="fw-bold">Here is what to expect in your consultation :</p>
+            <p class="fw-bold my-md-5">
+              Here is what to expect in your consultation :
+            </p>
             <ul>
               <li>You will meet with our expert</li>
               <li>
@@ -388,9 +201,9 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
             <div class="card p-md-5 rounded-1 border w-md-75">
-              <div class="card-body">
+              <div class="card-body text-start">
                 <h5 class="card-title fw-bold f2-1">Contact Us Today</h5>
                 <p class="card-text">
                   Send us a message and will respond as soons as possible
@@ -398,22 +211,22 @@
                 <form class="row">
                   <div class="col-md-6">
                     <div class="my-md-3">
-                      <label for="nameform" class="form-label">Name</label>
+                      <label for="username" class="form-label">Name</label>
                       <input
                         type="text"
                         class="form-control rounded-01"
-                        id="nameform"
+                        id="username"
                         placeholder="John"
                       />
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="my-md-3">
-                      <label for="nameform" class="form-label">Email</label>
+                      <label for="useremail" class="form-label">Email</label>
                       <input
                         type="email"
                         class="form-control rounded-1"
-                        id="nameform"
+                        id="useremail"
                         placeholder="name@example.com"
                       />
                     </div>
@@ -442,23 +255,25 @@
     </section>
     <!-- contact end -->
     <!-- footer start -->
-    <footer class="navy">
+    <footer>
       <div class="container p-md-5 p-sm-3">
         <div class="row text-light py-3 py-md-0">
           <div class="col-md-6">
-            <p class="fs-4">Jam Digi Solution</p>
+            <h4 class="mb-md-4">Jam Digi Solution</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              voluptatibus quam minima perspiciatis. Accusamus, officia! A
-              molestias est laborum deleniti sed quam quos ipsam accusantium
-              porro quas, aperiam dolore perferendis?
+              At Jam Digi Solution, we're passionate about crafting digital
+              experiences that resonate. Our mission is to propel your brand
+              forward in the digital sphere, utilizing innovative strategies and
+              creative solutions. Let's collaborate to amplify your online
+              presence and achieve your digital aspirations. Join us on this
+              journey towards digital success
             </p>
           </div>
           <div class="col-md-6">
             <ul
-              class="d-flex justify-content-between list-unstyled w-0 w-sm-75 w-md-50 ms-auto"
+              class="navlink d-flex justify-content-between list-unstyled ms-auto"
             >
-              <li class="footer-navlink"><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Service</a></li>
               <li><a href="#">Contact</a></li>
@@ -481,14 +296,13 @@
           </div>
         </div>
       </div>
-      <div class="py-1 py-md-2 copy-right">
-        <p>@ 2024 Jayam. All Rights Reserved</p>
+      <div class="bg-light text-center py-1">
+        <p class="my-2">@ 2024 Jayam. All Rights Reserved</p>
       </div>
     </footer>
     <!-- footer end -->
-
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
