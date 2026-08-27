@@ -2,266 +2,59 @@
   --primary-color: #07072c;
   --secondary-color: #f15b25;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.text-orange {
+  color: var(--secondary-color) !important;
 }
 
-.active {
+.bg-soft-orange {
+  background-color: rgba(241, 91, 37, 0.1);
+}
+
+.btn-orange, .btn-primary-custom {
   background-color: var(--secondary-color);
   color: #fff;
-  padding: 2px 7px;
-  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-.my-container {
-  width: 90%;
-  margin: 0 auto;
-}
-.w-40 {
-  width: 40%;
+.btn-orange:hover, .btn-primary-custom:hover {
+  background-color: #d84a18;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
-header {
-  border-bottom: 1px solid var(--primary-color);
+.service-card {
+  transition: transform 0.3s ease, shadow 0.3s ease;
+  border: 1px solid #eee;
 }
 
-header ul {
-  list-style: none;
-  margin-bottom: 0;
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+  border-color: var(--secondary-color);
 }
 
-.social-details {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.social-link {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.social-link i {
-  font-size: 1.5em;
+.bg-secondary-dark {
+  background-color: #0d0d3d;
 }
 
-.navbar a {
-  font-size: 1.1em;
-}
-.nav-logo img {
-  width: 150px;
-  object-fit: fill;
-}
-/* main start */
-.hero-text {
-  font-size: 2.8em;
-}
-.second {
-  color: var(--secondary-color);
-}
-.hero-subtext {
-  font-size: 1.8em;
-  font-weight: lighter;
-}
-#hero-img img {
-  width: 100%;
+.brand-img {
+  max-width: 140px;
+  filter: grayscale(40%);
+  transition: filter 0.3s ease;
 }
 
-/* main end */
-/* point start */
-.point-header {
-  background-color: var(--primary-color);
-  color: aliceblue;
-}
-.point-header p {
-  font-size: 1.8em;
-  font-weight: lighter;
-}
-.point-header small {
-  font-size: 1.2em;
-  font-weight: bolder;
-}
-
-.points-sub img {
-  width: 100%;
-}
-
-.points-sub h3 {
-  font-size: 2em;
-  margin: 0.5em 0;
-}
-.points-sub p {
-  font-size: 1.2em;
-  line-height: 1.4em;
-  font-weight: lighter;
-}
-/* point end */
-
-.brands {
-  background-color: #e6e6e6;
-}
-
-.brands h4 {
-  font-size: 2em;
-}
-/* swiper js for slide */
-.swiper {
-  width: 100%;
-}
-.swiper-slide img {
-  background-color: #fff;
-  display: block;
-  width: 40%;
-  object-fit: cover;
-  margin: 0 auto;
-  padding: 2em 4em;
+.brand-img:hover {
+  filter: grayscale(0%);
 }
 
 .contactform {
-  background: rgb(84, 84, 209);
-  background: linear-gradient(
-    129deg,
-    rgba(84, 84, 209, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}
-
-footer {
-  background-color: var(--primary-color);
-}
-footer .navlink {
-  width: 50%;
-}
-footer a {
-  color: #fff;
-}
-
-@media only screen and (min-width: 580px) and (max-width: 768px) {
-  /* CSS rules for tablet devices */
-  .nav-header ul li a {
-    font-size: 0.8rem;
-  }
-
-  .navbar a {
-    font-size: 0.8em;
-  }
-
-  /* main start */
-  .hero-text {
-    font-size: 2em;
-  }
-  .second {
-    color: var(--secondary-color);
-  }
-  .hero-subtext {
-    font-size: 0.8em;
-    font-weight: lighter;
-  }
-  #hero-img img {
-    width: 100%;
-  }
-
-  /* main end */
-  .point-header p {
-    font-size: 1em;
-    font-weight: lighter;
-  }
-  .point-header small {
-    font-size: 0.7em;
-    font-weight: bolder;
-  }
-  .points-sub img {
-    width: 80%;
-  }
-
-  .swiper-slide img {
-    background-color: #fff;
-    display: block;
-    width: 60%;
-    object-fit: cover;
-    margin: 0 auto;
-    padding: 0.4em 0.8em;
-  }
-
-  .contactform {
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (max-width: 580px) {
-  header {
-    display: none;
-  }
-  .my-container {
-    width: 100%;
-    margin: 0;
-  }
-  #navbarLinks {
-    display: none !important;
-  }
-  .nav-logo img {
-    width: 130px;
-  }
-  .nav-logo {
-    margin: 0 auto;
-  }
-
-  /* main start */
-  .hero-text {
-    font-size: 7vw;
-    text-align: center;
-    padding: 0 1em;
-  }
-  .hero-subtext {
-    font-size: 5vw;
-    font-weight: lighter;
-    text-align: center;
-  }
-
-  /* main end */
-
-  /* Point start */
-  .point-header p {
-    font-size: 0.8em;
-    font-weight: lighter;
-  }
-  .point-header small {
-    font-size: 0.7em;
-    font-weight: bolder;
-  }
-
-  .points-sub {
-    text-align: center;
-  }
-  .points-sub h3 {
-    font-size: 1.5em;
-  }
-  .points-sub p {
-    font-size: 1em;
-    padding: 1.1em 0;
-    line-height: 1.5em;
-    margin: 0;
-  }
-  .points-sub img {
-    width: 80%;
-  }
-
-  .swiper-slide img {
-    background-color: #fff;
-    display: block;
-    width: 80%;
-    object-fit: cover;
-    margin: 0 auto;
-    padding: 0.2em 0.8em;
-  }
-  /* Point end */
-  footer .navlink {
-    width: 100%;
-  }
+  background: linear-gradient(135deg, #07072c 0%, #1e1e60 100%);
 }
